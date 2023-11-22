@@ -1,0 +1,176 @@
+<configs>
+	<!-- Normal zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombie01']/property[@class='Action0']/property[@name='DamageEntity']/@value">60</set> <!-- default = 10 -->
+	<set xpath="/items/item[@name='meleeHandZombie01']/property[@class='Action0']/property[@name='DamageBlock']/@value">32</set> <!-- default = 8 -->
+	
+	<!-- Crawling zombies. -->
+	<append xpath="/items/item[@name='meleeHandZombie02']/property[@class='Action0']">
+		<property name="DamageEntity" value="20"/> <!-- default = 10 -->
+		<property name="DamageBlock" value="24"/> <!-- default = 8 -->
+	</append>
+
+	<!-- Feral zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">85</set> <!-- default = 20 -->
+	<set xpath="/items/item[@name='meleeHandZombieFeral']/property[@class='Action0']/property[@name='DamageBlock']/@value">40</set> <!-- default = 24 -->
+
+	<!-- spider, crawler -->
+	<set xpath="/items/item[@name='meleeHandZombie02Feral']/property[@class='Action0']/property[@name='DamageEntity']/@value">90</set> <!-- default = 20 -->
+	<set xpath="/items/item[@name='meleeHandZombie02Feral']/property[@class='Action0']/property[@name='DamageBlock']/@value">32</set> <!-- default = 24 -->
+
+	<!-- Short zombies -->
+	<set xpath="/items/item[@name='meleeHandZombieShort']/property[@class='Action0']/property[@name='DamageEntity']/@value">16</set> <!-- default = 8 -->
+	<set xpath="/items/item[@name='meleeHandZombieShort']/property[@class='Action0']/property[@name='DamageBlock']/@value">14</set> <!-- default = 7 -->
+
+	<!-- Feral short zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieShortFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">32</set> <!-- default = 16 -->
+	<set xpath="/items/item[@name='meleeHandZombieShortFeral']/property[@class='Action0']/property[@name='DamageBlock']/@value">28</set> <!-- default = 22 -->
+
+	<!-- Burning zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieBurning']/property[@class='Action0']/property[@name='DamageEntity']/@value">24</set> <!-- default = 12 -->
+	<set xpath="/items/item[@name='meleeHandZombieBurning']/property[@class='Action0']/property[@name='DamageBlock']/@value">16</set> <!-- default = 8 -->
+
+	<!-- Feral burning zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieBurningFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">48</set> <!-- default = 24 -->
+	<set xpath="/items/item[@name='meleeHandZombieBurningFeral']/property[@class='Action0']/property[@name='DamageBlock']/@value">32</set> <!-- default = 24 -->
+
+	<!-- Feral burning crawler zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieBurningCrawler']/property[@class='Action0']/property[@name='DamageEntity']/@value">48</set> <!-- default = 24 -->
+	<set xpath="/items/item[@name='meleeHandZombieBurningCrawler']/property[@class='Action0']/property[@name='DamageBlock']/@value">32</set> <!-- default = 24 -->
+
+	<!-- Cop zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieCop']/property[@class='Action0']/property[@name='DamageEntity']/@value">40</set> <!-- default = 20 -->
+	<set xpath="/items/item[@name='meleeHandZombieCop']/property[@class='Action0']/property[@name='DamageBlock']/@value">120</set> <!-- default = 100 -->
+
+	<!-- Vomit. -->
+	<set xpath="/items/item[@name='ammoProjectileZombieVomit']/property[@class='Action1']/property[@name='DamageEntity']/@value">20</set> <!-- default = 10 -->
+	<set xpath="/items/item[@name='ammoProjectileZombieVomit']/property[@class='Action1']/property[@name='DamageBlock']/@value">240</set> <!-- default = 120 -->
+
+	<!-- Feral cop zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieCopFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">80</set> <!-- default = 40 -->
+	<set xpath="/items/item[@name='meleeHandZombieCopFeral']/property[@class='Action0']/property[@name='DamageBlock']/@value">300</set> <!-- default = 200 -->
+
+	<!-- Feral vomit. -->
+	<set xpath="/items/item[@name='ammoProjectileZombieVomitFeral']/property[@class='Action1']/property[@name='DamageEntity']/@value">40</set> <!-- default = 20 -->
+	<set xpath="/items/item[@name='ammoProjectileZombieVomitFeral']/property[@class='Action1']/property[@name='DamageBlock']/@value">480</set> <!-- default = 240 -->
+
+	<!-- Radiated cop zombies. -->
+	<append xpath="/items/item[@name='meleeHandZombieCopRadiated']">
+		<property class="Action0">
+			<property name="DamageEntity" value="95"/> <!-- default = 40 -->
+			<property name="DamageBlock" value="320"/> <!-- default = 200 -->
+		</property>
+	</append>
+
+	<!-- Radiated vomit. -->
+	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/property[@class='Action1']/property[@name='DamageEntity']/@value">50</set> <!-- default = 25 -->
+	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/property[@class='Action1']/property[@name='DamageBlock']/@value">480</set> <!-- default = 500 -->
+
+	<!-- Mutated zombies. -->
+	<set xpath="/items/item[@name='meleeHandzombieMutated']/property[@class='Action0']/property[@name='DamageEntity']/@value">40</set> <!-- default = 20 -->
+	<set xpath="/items/item[@name='meleeHandzombieMutated']/property[@class='Action0']/property[@name='DamageBlock']/@value">200</set> <!-- default = 100 -->
+
+	<!-- Mutated feral zombies. -->
+	<set xpath="/items/item[@name='meleeHandzombieMutatedFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">50</set> <!-- default = 25 -->
+	<set xpath="/items/item[@name='meleeHandzombieMutatedFeral']/property[@class='Action0']/property[@name='DamageBlock']/@value">280</set> <!-- default = 140 -->
+
+	<!-- Mutated radiated zombies. -->
+	<set xpath="/items/item[@name='meleeHandzombieMutatedRadiated']/property[@class='Action0']/property[@name='DamageEntity']/@value">80</set> <!-- default = 30 -->
+	<set xpath="/items/item[@name='meleeHandzombieMutatedRadiated']/property[@class='Action0']/property[@name='DamageBlock']/@value">400</set> <!-- default = 180 -->
+
+	<!-- Muated projectile. -->
+	<set xpath="/items/item[@name='ammoProjectileZombieMutated']/property[@class='Action1']/property[@name='DamageEntity']/@value">60</set> <!-- default = 30 -->
+	<set xpath="/items/item[@name='ammoProjectileZombieMutated']/property[@class='Action1']/property[@name='DamageBlock']/@value">300</set> <!-- default = 150 -->
+
+	<!-- Dog zombies. -->
+	<set xpath="/items/item[@name='meleeHandAnimalZombieDog']/property[@class='Action0']/property[@name='DamageEntity']/@value">22</set> <!-- default = 8 -->
+	<set xpath="/items/item[@name='meleeHandAnimalZombieDog']/property[@class='Action0']/property[@name='DamageBlock']/@value">20</set> <!-- default = 14 -->
+
+	<!-- Strong dog zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieStrong']/property[@class='Action0']/property[@name='DamageEntity']/@value">32</set> <!-- default = 20 -->
+	<set xpath="/items/item[@name='meleeHandZombieStrong']/property[@class='Action0']/property[@name='DamageBlock']/@value">24</set> <!-- default = 20 -->
+
+	<!-- Demolition zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieDemolition']/property[@class='Action0']/property[@name='DamageEntity']/@value">70</set> <!-- default = 20 -->
+	<set xpath="/items/item[@name='meleeHandZombieDemolition']/property[@class='Action0']/property[@name='DamageBlock']/@value">650</set> <!-- default = 500 -->
+
+	<!-- Strong feral zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieStrongFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">80</set> <!-- default = 40 -->
+	<set xpath="/items/item[@name='meleeHandZombieStrongFeral']/property[@class='Action0']/property[@name='DamageBlock']/@value">90</set> <!-- default = 60 -->
+
+	<!-- Bears. -->
+	<set xpath="/items/item[@name='meleeHandAnimalBear']/property[@class='Action0']/property[@name='DamageEntity']/@value">90</set> <!-- default = 30 -->
+	<set xpath="/items/item[@name='meleeHandAnimalBear']/property[@class='Action0']/property[@name='DamageBlock']/@value">180</set> <!-- default = 40 -->
+
+	<!-- Bear zombies. -->
+	<set xpath="/items/item[@name='meleeHandAnimalZombieBear']/property[@class='Action0']/property[@name='DamageEntity']/@value">130</set> <!-- default = 50 -->
+	<set xpath="/items/item[@name='meleeHandAnimalZombieBear']/property[@class='Action0']/property[@name='DamageBlock']/@value">350</set> <!-- default = 80 -->
+
+	<!-- Hazmat zombies. -->
+	<append xpath="/items/item[@name='meleeHandZombieHazMat']">
+		<property class="Action0">
+			<property name="DamageEntity" value="25"/> <!-- default = 10 -->
+			<property name="DamageBlock" value="28"/> <!-- default = 16 -->
+		</property>
+	</append>
+
+	<!-- Feral hazmat zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieHazMatFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">40</set> <!-- default = 20 -->
+	<set xpath="/items/item[@name='meleeHandZombieHazMatFeral']/property[@class='Action0']/property[@name='DamageBlock']/@value">32</set> <!-- default = 24 -->
+
+	<!-- Worker zombies. -->
+	<append xpath="/items/item[@name='meleeHandZombieWorker']/property[@class='Action0']">
+		<property name="DamageEntity" value="25"/> <!-- default = 10 -->
+	</append>
+	<set xpath="/items/item[@name='meleeHandZombieHazMatFeral']/property[@class='Action0']/property[@name='DamageBlock']/@value">50</set> <!-- default = 40 -->
+
+	<!-- Feral Worker zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieWorkerFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">40</set> <!-- default = 20 -->
+	<set xpath="/items/item[@name='meleeHandZombieWorkerFeral']/property[@class='Action0']/property[@name='DamageBlock']/@value">240</set> <!-- default = 120 -->
+
+	<!-- Party girl zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombiePartyGirl']/property[@class='Action0']/property[@name='DamageEntity']/@value">16</set> <!-- default = 8 -->
+	<append xpath="/items/item[@name='meleeHandZombiePartyGirl']/property[@class='Action0']">
+		<property name="DamageBlock" value="32"/> <!-- default = 16 -->
+	</append>
+	
+	<!-- Feral party girl zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombiePartyGirlFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">32</set> <!-- default = 16 -->
+	<set xpath="/items/item[@name='meleeHandZombiePartyGirlFeral']/property[@class='Action0']/property[@name='DamageBlock']/@value">48</set> <!-- default = 24 -->
+	
+	<!-- Coyotes. -->
+	<set xpath="/items/item[@name='meleeHandAnimalCoyote']/property[@class='Action0']/property[@name='DamageEntity']/@value">16</set> <!-- default = 8 -->
+	<set xpath="/items/item[@name='meleeHandAnimalCoyote']/property[@class='Action0']/property[@name='DamageBlock']/@value">32</set> <!-- default = 16 -->
+	
+	<!-- Vultures. -->
+	<set xpath="/items/item[@name='meleeHandAnimalZombieVulture']/property[@class='Action0']/property[@name='DamageEntity']/@value">20</set> <!-- default = 8 -->
+	<set xpath="/items/item[@name='meleeHandAnimalZombieVulture']/property[@class='Action0']/property[@name='DamageBlock']/@value">12</set> <!-- default = 8 -->
+
+	<!-- Radiated vultures. -->
+	<set xpath="/items/item[@name='meleeHandAnimalZombieVultureRadiated']/property[@class='Action0']/property[@name='DamageEntity']/@value">36</set> <!-- default = 10 -->
+	<set xpath="/items/item[@name='meleeHandAnimalZombieVultureRadiated']/property[@class='Action0']/property[@name='DamageBlock']/@value">40</set> <!-- default = 32 -->
+
+	<!-- Vulture vomit. -->
+	<set xpath="/items/item[@name='ammoProjectileVultureVomit']/property[@class='Action1']/property[@name='DamageEntity']/@value">30</set> <!-- default = 15 -->
+	<set xpath="/items/item[@name='ammoProjectileVultureVomit']/property[@class='Action1']/property[@name='DamageBlock']/@value">24</set> <!-- default = 12 -->
+	
+	<!-- Snakes. -->
+	<set xpath="/items/item[@name='meleeHandAnimalSnake']/property[@class='Action0']/property[@name='DamageEntity']/@value">30</set> <!-- default = 10 -->
+	<set xpath="/items/item[@name='meleeHandAnimalSnake']/property[@class='Action0']/property[@name='DamageBlock']/@value">4</set> <!-- default = 2 -->
+
+	<!-- Wolves. -->
+	<set xpath="/items/item[@name='meleeHandAnimalWolf']/property[@class='Action0']/property[@name='DamageEntity']/@value">40</set> <!-- default = 14 -->
+	<set xpath="/items/item[@name='meleeHandAnimalWolf']/property[@class='Action0']/property[@name='DamageBlock']/@value">30</set> <!-- default = 16 -->
+	
+	<!-- Dire wolves. -->
+	<set xpath="/items/item[@name='meleeHandAnimalDireWolf']/property[@class='Action0']/property[@name='DamageEntity']/@value">60</set> <!-- default = 22 -->
+	<set xpath="/items/item[@name='meleeHandAnimalDireWolf']/property[@class='Action0']/property[@name='DamageBlock']/@value">60</set> <!-- default = 28 -->
+
+	<!-- Boss grace. -->
+	<set xpath="/items/item[@name='meleeHandBossGrace']/property[@class='Action0']/property[@name='DamageEntity']/@value">100</set> <!-- default = 50 -->
+	<set xpath="/items/item[@name='meleeHandBossGrace']/property[@class='Action0']/property[@name='DamageBlock']/@value">240</set> <!-- default = 120 -->
+	
+	<!-- zombies. -->
+	<set xpath="/items/item[@name='meleeHandZombieWorkerFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">40</set> <!-- default = 20 -->
+	<set xpath="/items/item[@name='meleeHandZombieWorkerFeral']/property[@class='Action0']/property[@name='DamageBlock']/@value">240</set> <!-- default = 120 -->
+
+</configs>
